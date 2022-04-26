@@ -344,7 +344,7 @@ section#header_profile h5 {
   position:relative;
   font-family: 'Assistant', sans-serif;
 }
-.footer {
+.footer_ {
     position:absolute;
     height: 300px;
     width: 100%;
@@ -352,13 +352,31 @@ section#header_profile h5 {
     background-position: center;
     overflow: hidden;  
     top: 1935px;
+    left: 0px;
     background-color: rgb(46, 46, 46);
     font-family: 'Assistant', sans-serif;
 }
-.footer_ .copyrights_text {
+.copyrights_text {
   text-align: center;
   font-size: 25px;
+  position: relative;
+  top: 125px;
+  color: white;
+  font-weight: 700;
 }
-.footer .footer_ h3 {
-  font-size: 40px;
+.footer_ .logo_footer {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 870px;
+  top: 125px;
+}
+.footer_list a{
+  padding: 1em 1.5em;
+  font-size: 22px;
+  position: relative;
+  top: 40px;
+  left: -600px;
+  font-weight: 700;
+  color: white;
 }
