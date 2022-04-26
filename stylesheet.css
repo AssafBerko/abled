@@ -1,0 +1,346 @@
+body {
+    background-size: auto;
+}
+section#header {
+    background-color: #fffaeb;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: url(art.png) center center no-repeat;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;  
+  }
+section#header .main-title {
+  position: relative;
+  top: -100px;
+}
+section#header a .logoabled {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+section#header a .profile_user {
+  width: 50px;
+  height: 50px;
+  top: -158px;
+  left: -1810px;
+  position:relative;
+}
+form.searchbar input[type=text] {
+    padding: 10px;
+    font-size: 25px;
+    border: 0px solid grey;
+    font-family: 'Assistant', sans-serif;
+    background: white;
+    position: relative;
+    top: 85px;
+    left: 30px;
+    width: 700px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.507);
+    border-radius: 1.625rem;
+}
+
+form.searchbar button {
+  float: left;
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+    position: relative;
+    top: 35px;
+    left: 510px;
+    background: #ffa959;
+    color: white;
+    font-size: 25px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 700;
+    border: 0px solid grey;
+    cursor: pointer;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.507);
+    border-radius: 1.625rem;
+  }
+
+form.searchbar button:hover {
+    background: #ffffff;
+    color: black;
+    
+  }
+
+form.searchbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+section#mainp {
+    background-color: #f6f6f6;  
+    height: 600px;
+    position: absolute;
+    width: 100%;
+    top: 930px;
+    left: 0;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;  
+  }
+
+section#mainp .artmain {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: -1250px;
+    top: -350px;
+}
+
+section#header h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: 140px;
+    left: 0px;
+    font-family: 'Assistant', sans-serif;
+}
+section#header h2 {
+  text-align: right;
+  font-size: 60px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+}
+section#header h3 {
+  text-align: center;
+  position: relative;
+  top: 15px;
+  font-size: 30px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+}
+section#header h4 {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: 0px;
+  font-family: 'Assistant', sans-serif;
+}
+section#header h5 {
+  font-size: 25px;
+  top: -75px;
+  left: -1700px;
+  position:relative;
+  font-family: 'Assistant', sans-serif;
+}
+section#mainp h1 {
+  text-align: left;
+  font-size: 25px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+}
+section#mainp h2 {
+  text-align: right;
+  font-weight: 800;
+  font-size: 70px;
+  position: relative;
+  top: 130px;
+  left: -150px;
+  font-family: 'Assistant', sans-serif;
+}
+section#mainp h3 {
+  text-align: right;
+  font-size: 40px;
+  font-weight: 500;
+  left: -150px;
+  top: 70px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+}
+section#mainp h4 {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+}
+div.hotplaces_s section.hotaround h3 {
+  text-align: center;
+  background-color: #fcd2a6;
+  font-size: 60px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  width: 450px;
+  left: -700px;
+  text-align: center;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.507);
+    border-radius: 3.925rem;
+}
+div.hotplaces_s{
+  background-color: #f6f6f6;  
+    height: auto;
+    position: absolute;
+    width: 1920px;
+    top: 1500px;
+    left: 0;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;  
+
+}
+.places {
+  background-position: center;
+  display: flex;
+  text-align: right;
+  width: auto;
+ display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center; 
+    
+}
+.place_t {
+  background:#ffa959;
+  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 350px;
+  height: 200px;
+  border-radius: 1.625rem;
+  text-align: center;
+  justify-content: center
+}
+
+.place {
+  background-image: url(place.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 350px;
+  height: 200px;
+  border-radius: 1.625rem;
+}
+section#header_fav {
+  background-color: #f6f6f6;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  background-size: 100%;
+  background-position: center;
+  overflow: hidden;  
+}
+
+section#header_fav .logo {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+section#header_fav h5 {
+  font-size: 25px;
+  top: -75px;
+  left: -1700px;
+  position:relative;
+  font-family: 'Assistant', sans-serif;
+}
+div.hotplaces_s_fav section.hotaround_fav h3 {
+  font-size: 60px;
+  position: relative;
+  font-family: 'Assistant', sans-serif;
+  width: 350px;
+  left: 40px;
+  top: -80px;
+  text-align: center;
+}
+div.hotplaces_s_fav{
+  background-color: #f6f6f6;  
+    height: auto;
+    position: absolute;
+    width: 1920px;
+    top: 100px;
+    left: 0;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;  
+
+}
+.places_fav {
+  background-position: center;
+  display: flex;
+  text-align: right;
+  width: auto;
+}
+.place_t_fav {
+  background:#ffa959;
+  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: -130px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 200px;
+  border-radius: 1.625rem;
+  text-align: center;
+  align-content: center;
+}
+
+.place_fav {
+  background-image: url(place.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: -130px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 350px;
+  height: 200px;
+  border-radius: 1.625rem;
+}
+section#header_profile {
+  background-color: #f6f6f6;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  background-size: 100%;
+  background-position: center;
+  overflow: hidden;  
+}
+section#header_profile .logo {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 10px;
+  left: -10px;
+}
+section#header_profile a .profile_user {
+width: 50px;
+height: 50px;
+top: -158px;
+left: -1820px;
+position:relative;
+}
+section#header_profile h5 {
+  font-size: 25px;
+  top: -75px;
+  left: -1700px;
+  position:relative;
+  font-family: 'Assistant', sans-serif;
+}
