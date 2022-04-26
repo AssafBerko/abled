@@ -344,3 +344,21 @@ section#header_profile h5 {
   position:relative;
   font-family: 'Assistant', sans-serif;
 }
+.footer {
+    position:absolute;
+    height: 300px;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;  
+    top: 1935px;
+    background-color: rgb(46, 46, 46);
+    font-family: 'Assistant', sans-serif;
+}
+.footer_ .copyrights_text {
+  text-align: center;
+  font-size: 25px;
+}
+.footer .footer_ h3 {
+  font-size: 40px;
+}
